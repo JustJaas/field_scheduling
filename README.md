@@ -1,16 +1,25 @@
-# field_scheduling
+# Field Scheduling
 
-A new Flutter project.
+Aplicación en Flutter para manejar el agendamiento de tres canchas.
 
-## Getting Started
+## Capturas de Pantalla
 
-This project is a starting point for a Flutter application.
+<div style="display: flex; flex-direction: row;">
+  <img src="assets/img/screenshot_1.png" alt="Captura de pantalla 1" style="width: 300px; margin-right: 10px;">
+  <img src="assets/img/screenshot_2.png" alt="Captura de pantalla 2" style="width: 300px;">
+</div>
 
-A few resources to get you started if this is your first Flutter project:
+## Descripción
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Esta aplicación usa el API del siguiente link `https://api.openweathermap.org`, la cual tiene como objetivo principal obtener y desplegar información sobre el clima para que con dicha información se muestre al momento de agendar una cancha.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Instalación
+
+1. Clona este repositorio: `git clone https://github.com/JustJaas/field_scheduling.git`
+2. Navega a la carpeta del proyecto: `cd field_scheduling`
+3. Instala las dependencias: `flutter pub get`
+
+## Uso
+
+1. Ejecuta la app en un emulador o dispositivo: `flutter run`
+2. Interactúa con la app y explora sus funcionalidades.

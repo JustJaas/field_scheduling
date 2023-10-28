@@ -83,9 +83,9 @@ class _NewBookingPageState extends State<NewBookingPage> {
                               locale: LocaleType.es,
                               showTitleActions: true,
                               minTime:
-                                  DateTime.now().add(const Duration(days: 1)),
+                                  DateTime.now().add(const Duration(days: 3)),
                               maxTime:
-                                  DateTime.now().add(const Duration(days: 5)),
+                                  DateTime.now().add(const Duration(days: 6)),
                               onConfirm: (date) {
                                 context.read<NewBookingBloc>().add(EditDate(
                                     date: DateFormat('dd/MM/yyyy')
